@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<url>jdbc:oracle:thin:@192.168.10.90:1521:orcl</url>
+	<driver>oracle.jdbc.driver.OracleDriver</driver>
+	<user>cloudwalk</user>
+	<pwd>cloudwalk</pwd>
+	<root>E:/test-collection</root>
+
+	<!-- 身份证正面 -->
+	<IDCardFront>true</IDCardFront>
+	<!-- 身份证背面 -->
+	<IDCardBack>false</IDCardBack>
+	<!-- 动作活体 -->
+	<Image>false</Image>
+	<!-- 静默活体 -->
+	<Silence>false</Silence>
+	<!-- 人脸底库 -->
+	<FaceBase>false</FaceBase>
+	<!-- 人脸识别库 -->
+	<FaceRecog>false</FaceRecog>
+	<!-- 银行卡 -->
+	<BankOcr>false</BankOcr>
+	<!-- 网纹 -->
+	<Gird>false</Gird>
+	<!-- 票据 -->
+	<TicketOcr>false</TicketOcr>
+	<!-- 人脸干扰图 -->
+	<FaceNag>false</FaceNag>
+	<!-- 银行卡准确率测试集 -->
+	<BankOcrAccu>false</BankOcrAccu>
+	<!-- 身份证正面准确率测试集 -->
+	<IDcardFrontAccu>false</IDcardFrontAccu>
+	<!-- 身份证背面准确率测试集 -->
+	<IDcardBackAccu>false</IDcardBackAccu>
+</config>
